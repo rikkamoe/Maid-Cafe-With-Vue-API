@@ -1,0 +1,210 @@
+{
+  "best-products": [
+    {
+      "id": 1,
+      "code": "BP-01",
+      "name": "Ramen",
+      "price": "10000",
+      "status": true,
+      "img": "food-img.svg"
+    },
+    {
+      "id": 2,
+      "code": "BP-02",
+      "name": "Soba",
+      "price": "15200",
+      "status": true,
+      "img": "food-img.svg"
+    },
+    {
+      "id": 3,
+      "code": "BP-03",
+      "name": "Takoyaki",
+      "price": "12000",
+      "status": true,
+      "img": "food-img.svg"
+    }
+  ],
+  "foods": [
+    {
+      "id": 1,
+      "code": "BP-01",
+      "name": "Ramen",
+      "price": "10000",
+      "status": true,
+      "img": "food-img.svg"
+    },
+    {
+      "id": 2,
+      "code": "BP-02",
+      "name": "Soba",
+      "price": "15200",
+      "status": true,
+      "img": "food-img.svg"
+    },
+    {
+      "id": 3,
+      "code": "BP-03",
+      "name": "Takoyaki",
+      "price": "12000",
+      "status": true,
+      "img": "food-img.svg"
+    },
+    {
+      "id": 4,
+      "code": "BP-04",
+      "name": "Udon",
+      "price": "11000",
+      "status": true,
+      "img": "food-img.svg"
+    },
+    {
+      "id": 5,
+      "code": "BP-05",
+      "name": "Sushi",
+      "price": "20000",
+      "status": true,
+      "img": "food-img.svg"
+    },
+    {
+      "id": 6,
+      "code": "BP-06",
+      "name": "Okonomiyaki",
+      "price": "12300",
+      "status": true,
+      "img": "food-img.svg"
+    }
+  ],
+  "drinks": [
+    {
+      "id": 7,
+      "code": "BP-07",
+      "name": "Soju",
+      "price": "15000",
+      "status": true,
+      "img": "drink-img.svg"
+    },
+    {
+      "id": 8,
+      "code": "BP-08",
+      "name": "Es Matcha",
+      "price": "5200",
+      "status": true,
+      "img": "drink-img.svg"
+    },
+    {
+      "id": 9,
+      "code": "BP-09",
+      "name": "Ryokucha",
+      "price": "2000",
+      "status": true,
+      "img": "drink-img.svg"
+    },
+    {
+      "id": 10,
+      "code": "BP-10",
+      "name": "Yakult",
+      "price": "1000",
+      "status": true,
+      "img": "drink-img.svg"
+    },
+    {
+      "id": 11,
+      "code": "BP-11",
+      "name": "Sake",
+      "price": "22000",
+      "status": true,
+      "img": "drink-img.svg"
+    },
+    {
+      "id": 12,
+      "code": "BP-12",
+      "name": "Sakura Ocha",
+      "price": "1300",
+      "status": true,
+      "img": "drink-img.svg"
+    }
+  ],
+  "bucket": [],
+  "orders": [
+    {
+      "name": "Bayu",
+      "no_table": "1",
+      "buckets": [
+        {
+          "quantity": "1",
+          "information": "aa",
+          "product": {
+            "id": 2,
+            "code": "BP-02",
+            "name": "Soba",
+            "price": "15200",
+            "status": true,
+            "img": "food-img.svg"
+          },
+          "id": 1
+        },
+        {
+          "quantity": "1",
+          "information": "aa",
+          "product": {
+            "id": 12,
+            "code": "BP-12",
+            "name": "Sakura Ocha",
+            "price": "1300",
+            "status": true,
+            "img": "drink-img.svg"
+          },
+          "id": 2
+        }
+      ],
+      "id": 1
+    },
+    {
+      "name": "Zip",
+      "no_table": "2",
+      "buckets": [
+        {
+          "quantity": "1",
+          "information": "bb",
+          "product": {
+            "id": 3,
+            "code": "BP-03",
+            "name": "Takoyaki",
+            "price": "12000",
+            "status": true,
+            "img": "food-img.svg"
+          },
+          "id": 1
+        },
+        {
+          "quantity": "2",
+          "information": "bb",
+          "product": {
+            "id": 8,
+            "code": "BP-08",
+            "name": "Es Matcha",
+            "price": "5200",
+            "status": true,
+            "img": "drink-img.svg"
+          },
+          "id": 2
+        },
+        {
+          "quantity": "2",
+          "information": "bb",
+          "product": {
+            "id": 1,
+            "code": "BP-01",
+            "name": "Ramen",
+            "price": "10000",
+            "status": true,
+            "img": "food-img.svg"
+          },
+          "id": 3
+        }
+      ],
+      "id": 2
+    }
+  ]
+}
