@@ -205,6 +205,38 @@
         }
       ],
       "id": 2
+    },
+    {
+      "name": "Suwin",
+      "no_table": "10",
+      "buckets": [
+        {
+          "quantity": "1",
+          "information": "1",
+          "product": {
+            "id": 8,
+            "code": "BP-08",
+            "name": "Es Matcha",
+            "price": "5200",
+            "status": true,
+            "img": "drink-img.svg"
+          },
+          "id": 1
+        },
+        {
+          "quantity": "1",
+          "product": {
+            "id": 1,
+            "code": "BP-01",
+            "name": "Ramen",
+            "price": "10000",
+            "status": true,
+            "img": "food-img.svg"
+          },
+          "id": 2
+        }
+      ],
+      "id": 3
     }
   ]
 }

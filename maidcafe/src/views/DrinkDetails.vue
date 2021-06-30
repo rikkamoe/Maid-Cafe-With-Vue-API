@@ -91,7 +91,7 @@ export default {
     },
     setOrder() {
       // console.log(this.order);
-      if (this.order.quantity && this.order.information) {
+      if (this.order.quantity) {
         this.order.product = this.detaildrinks;
         axios
           .post("http://localhost:3000/bucket", this.order)
